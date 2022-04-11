@@ -4,7 +4,7 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
-*,*::before,*::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -44,7 +44,7 @@ nav ul {
   padding: 0;
   list-style-type: none;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
   color: #fff;
 }
