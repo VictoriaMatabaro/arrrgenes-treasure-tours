@@ -4,9 +4,7 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
-*,
-*::before,
-*::after {
+*,*::before,*::after {
   box-sizing: inherit;
 }
 
@@ -41,15 +39,17 @@ body {
   width: 9em;
 }
 
-.nav ul {
+nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
-  align-items: center;
+  align-items: stretch;
+  justify-content: space-between;
+  color: #fff;
 }
 
-.nav a {
+h2 p {
   color: #fff;
   padding: .5em;
   border-radius: 1em;
@@ -136,7 +136,7 @@ body {
   text-decoration: none;
 }
 
-.footer {
+footer {
   background-color: #522806;
   border-top: .3rem solid #bea59b;
   color: #fff;
@@ -145,6 +145,6 @@ body {
   padding: 1rem;
 }
 
-.footer * {
+footer * {
   margin: 0;
 }
