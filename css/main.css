@@ -43,10 +43,18 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
   color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  padding: .5em;
+  border-radius: 1em;
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
 }
 
 h2 p {
